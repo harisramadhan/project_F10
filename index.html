@@ -8,34 +8,42 @@
     <title>Judul</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <!-- header -->
+  <!-- header -->
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fa fa-bars menu-icon"></i>
+    </label>
     <div class="header">
-        <div class="logo">Logo</div>
-        <ul class="menu">
-            <li> <a href=""> Menu 1</a></li>
-            <li> <a href=""> Menu 2</a></li>
-            <li> <a href=""> Menu 3</a></li>
-        </ul>
+      <img class="logo" src="img/F.png">
     </div>
-    <!-- penutup header -->
+    <ul>
+      <li><a class="active" href="home"> Home</a></li>
+      <li><a href=""> About</a></li>
+      <li><a href=""> Tools</a></li>
+      <li><a href=""> Contact</a></li>
+    </ul>
+  </nav>
+  <!-- penutup header -->
 
-    <!-- main -->
-    <div class="hero">
-        <div class="text">
-            <h1>Lorem, ipsum.</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae harum aperiam eveniet suscipit
-                similique. Quasi nisi vitae sit, obcaecati voluptates rem quisquam voluptate eveniet perferendis,
-                repellendus quaerat reiciendis nobis corrupti!</p>
-            <button>Show</button>
-        </div>
-        <div class="gambar">
-            ini gambar
-        </div>
-    </div>
-    <!-- penutup main -->
+  <!-- main -->
+  <div id="main">
+    <section id="about">
+      <img src="img/4884785.jpg" width="40%" height="40%">
+      <div class="text-main">
+        <p>Project Team DTS PRO 2021</p>
+        <h2>Team F10</h2>
+        <p>Create a website using HTML and CSS. Together, we will find a good solution</p>
+        <p><a href="#" class="btn-blue">Join Us</a></p>
+      </div>
+    </section>
+  </div>
+  <!-- penutup main -->
 
     <!-- kontent -->
     <section>
