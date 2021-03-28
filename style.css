@@ -121,3 +121,172 @@ a.btn-blue:hover {
 
 
 /* penutup main */
+
+/* body */
+/* about */
+.about {
+    text-align: center;
+}
+
+.about h1,
+.tools h1,
+.contact h1 {
+    font-size: 28px;
+    color: rgb(136, 136, 136);
+    margin-bottom: 50px;
+}
+
+.about h1 span,
+.tools h1 span,
+.contact h1 span {
+    font-size: 40px;
+    color: red;
+}
+
+.about .box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding: 50px;
+}
+
+.about .box .html,
+.css {
+    margin: 20px;
+    padding: 50px;
+    box-shadow: 0 5px 32px rgba(0, 0, 0, 0.1);
+    line-height: 30px;
+}
+
+.about .box h3 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.about .box span {
+    font-size: 15px;
+    color: rgb(177, 177, 177);
+    font-weight: 100;
+}
+
+.about .box p {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.about .box .sample-html,
+.sample-css {
+    margin-left: 20px;
+}
+
+.about .box .sample h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about .box .css .sample-css input,
+.about .box .css .sample-css textarea {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+}
+
+.about .box .css .sample-css button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #3d5dec;
+    color: #fff;
+}
+
+/* penutup about */
+
+/* tools */
+.tools {
+    text-align: center;
+}
+
+.tools .box {
+    height: 100%;
+    padding: 50px;
+    box-shadow: 0 5px 32px rgba(0, 0, 0, 0.1);
+}
+
+.tools .box .editor,
+.browser {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.tools .card {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.tools .card:hover {
+    transform: translateY(-20px);
+}
+
+.tools .card .img {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+}
+
+.tools .card .img img {
+    width: 100px;
+    height: auto;
+}
+
+.tools .card span {
+    border-top: 1px solid #ccc;
+    padding-top: 5px;
+}
+
+/* penutup tools */
+
+/* contact */
+.contact .box {
+    box-shadow: 0 5px 32px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    height: 400px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .box .form {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.contact .box .form input,
+textarea {
+    width: 400px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.contact .box .form button {
+    padding: 10px 20px;
+    width: 80px;
+    background-color: #3d5dec;
+    color: #fff;
+}
+
+/* penutup contact */
+
+/* penutup body */
+
+
