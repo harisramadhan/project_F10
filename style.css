@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 
+
 section {
     margin-top: 70px;
 }
 
 
+/* header */
 nav {
     height: 80px;
     width: 100%;
@@ -117,67 +119,5 @@ a.btn-blue:hover {
     color: black;
 }
 
+
 /* penutup main */
-
-/* kontent */
-.title {
-    text-align: center;
-}
-
-.title span {
-    color: red;
-}
-
-.learn {
-    background-color: rgba(226, 225, 225, 0.8);
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    height: 350px;
-}
-
-.learn .card {
-    border: 1px solid #ccc;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 200px;
-    margin-left: 30px;
-}
-
-.contact {
-    width: 600px;
-    height: 400px;
-    box-shadow: 0 5px 32px rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    margin: 50px 0;
-}
-
-.contact input,
-textarea {
-    width: 400px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding: 20px;
-    font-size: 18px;
-    border: 1px solid #dee7ec;
-}
-
-.contact button {
-    width: 100px;
-    background-color: #ccc;
-    padding: 10px 20px;
-}
-
-/* penutup konten */
-
-footer {
-    background-color: #ccc;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding: 30px;
-}
