@@ -62,12 +62,37 @@
     /* End Header */
 
     /* Main */
-    .text-main P {
+    #main {
+        text-align: center;
+    }
+
+    .text-main {
+        margin-top: -25px;
+        margin-left: 15px;
+    }
+
+    .text-main p {
         font-size: 12px;
     }
 
+    p.deskripsi {
+        margin-top: -25px;
+    }
+
     .text-main h2 {
+        margin-top: -20px;
         font-size: 16px;
+    }
+
+    a.btn-blue {
+        padding: 10px 15px;
+    }
+
+    #home img {
+        position: relative;
+        margin-left: -30px;
+        width: 60%;
+        height: 60%;
     }
 
     /* End main */
