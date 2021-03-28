@@ -96,4 +96,106 @@
     }
 
     /* End main */
+    
+        /* body */
+    /* about */
+    .about {
+        text-align: center;
+    }
+
+    .about h1,
+    .tools h1,
+    .contact h1 {
+        font-size: 16px;
+    }
+
+    .about h1 span,
+    .tools h1 span,
+    .contact h1 span {
+        font-size: 20px;
+        color: red;
+    }
+
+    .about .box {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .about .box .html,
+    .css {
+        margin: 10px 0;
+        line-height: 30px;
+    }
+
+    .about .box h3 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .about .box span {
+        font-size: 12px;
+    }
+
+    .about .box p {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .about .box .sample-html,
+    .sample-css {
+        margin-left: 2px;
+    }
+
+    .about .box .sample h4 {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .about .box .css .sample-css input,
+    .about .box .css .sample-css textarea {
+        width: 200px;
+    }
+
+    .about .box .css .sample-css button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 10px;
+        background-color: #3d5dec;
+        color: #fff;
+    }
+
+    /* end about */
+
+    /* tools */
+    .tools .card {
+        width: 120px;
+        height: 100px;
+    }
+
+    .tools .card .img {
+        width: 30px;
+        height: 60px;
+        padding: 10px;
+    }
+
+    .tools .card .img img {
+        width: 50px;
+        height: 40px;
+        position: relative;
+    }
+
+    .tools .card span {
+        border-top: 1px solid #ccc;
+        padding-top: 5px;
+        font-size: 10px;
+    }
+
+    .contact .box .form input,
+    textarea {
+        width: 250px;
+    }
+
+    /* end tools */
+    /* end body */
+    
 }
