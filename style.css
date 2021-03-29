@@ -19,7 +19,7 @@ nav {
     top: 0;
     z-index: 10;
     background: #ffffff;
-    border: 1px solid #364f6b;
+    border: 1px solid #ccc;
 }
 
 .logo {
@@ -76,11 +76,13 @@ a:hover {
 /* End header */
 
 /* main */
-#home {
+#main {
     font-family: 'comic sans ms';
     margin: auto;
     display: flex;
     margin: 50px;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 5px 32px rgba(0, 0, 0, 0.1);
 }
 
 .text-main {
