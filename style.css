@@ -372,7 +372,7 @@ footer .menu li {
 footer .sosial-media {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 20px 70px;
 }
 
 footer .sosial-media .box {
