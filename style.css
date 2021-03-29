@@ -18,7 +18,7 @@ nav {
     position: -webkit-sticky;
     top: 0;
     z-index: 10;
-    background: #ffffff;
+    background-color: rgb(68, 184, 172, 0.3);
     border-bottom: 1px solid #eee;
 }
 
@@ -303,7 +303,7 @@ footer {
 
 }
 
-.logo-footer img {
+footer .logo-footer img {
   height: 90px;
   position: absolute;
   left: 30px;
@@ -312,7 +312,7 @@ footer {
   box-shadow: 2px 4px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
-.logo-footer p {
+footer .logo-footer p {
   background-color: rgba(68, 184, 172, 0.4);
   width: 100px;
   position: absolute;
@@ -325,13 +325,13 @@ footer {
   text-align: center;
 }
 
-.layanan img {
+footer .layanan img {
   position: absolute;
   top: 1749px;
   left: 660px;
 }
 
-.menu h4, li {
+footer .menu h4, li {
 
   background-color: rgba(68, 184, 172, 0.4);
   border-radius: 5px;
@@ -341,7 +341,7 @@ footer {
   box-shadow: 0 5px 32px rgba(0, 0, 0, 0.2);
 }
 
-.menu h4 {
+footer .menu h4 {
   font-family: 'comic sans ms';
   width: 140px;
   height: 35px;
@@ -354,15 +354,15 @@ footer {
   opacity: 0.8;
   cursor: pointer;
 }
-.menu:hover h4 {
+footer .menu:hover h4 {
   opacity: 1;
 }
 
-.menu:active h4 {
+footer .menu:active h4 {
     top: 32px;
 }
 
-.menu li{
+footer .menu li{
   width: 110px;
   height: 30px;
   display: inline-block;
@@ -372,63 +372,63 @@ footer {
 }
 
 
-.sosial-media a {
+footer .sosial-media a {
  cursor: pointer;
  top: 1780px;
  opacity: 0.6;
 }
 
-.sosial-media:active a {
+footer .sosial-media:active a {
   position: absolute;
   top: 1782px;
   box-shadow: rgba(68, 184, 172, 0.4);
 }
 
-.wa {
+footer .wa {
   position: absolute;
   left: 1422px;
 }
 
-.wa:hover {
+footer .wa:hover {
   position: absolute;
   opacity: 1;
 }
 
-.fb {
+footer .fb {
   position: absolute;
   left: 1315px;
 }
 
-.fb:hover {
+footer .fb:hover {
   position: absolute;
   opacity: 1;
 }
 
-.twitter {
+footer .twitter {
   position: absolute;
   left: 1218px;
 }
 
-.twitter:hover {
+footer .twitter:hover {
   position: absolute;
   opacity: 1;
 }
 
-.insta {
+footer .insta {
   position: absolute;
   left: 1120px;
 }
 
-.insta:hover {
+footer .insta:hover {
   position: absolute;
   opacity: 1;
 }
 
-.icon {
+footer .icon {
   padding: 10px 10px;
 }
 
-.sosial-media p {
+footer .sosial-media p {
   top: 0;
   color: white;
   padding: 40px 23px 0 23px;
@@ -440,7 +440,7 @@ footer {
 
 }
 
-.alamat {
+footer .alamat {
   background-color: rgba(68, 184, 172, 0.4);
   width: 420px;
   position: relative;
