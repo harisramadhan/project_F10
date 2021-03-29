@@ -78,9 +78,10 @@ a:hover {
 /* main */
 #home {
     font-family: 'comic sans ms';
-    margin: auto;
     display: flex;
-    margin: 50px;
+    width: 100%;
+    align-items: center;
+    padding: 50px;
     border-bottom: 1px solid #eee;
     box-shadow: 0 5px 32px rgba(0, 0, 0, 0.1);
 }
